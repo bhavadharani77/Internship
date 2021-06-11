@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background-color: white;
+    background-size: cover;
+    height: 99.69vh;
+    background-image: url("https://image.freepik.com/free-photo/grow-small-plants-coins-stacked-green-blurred-backgrounds-financial-ideas_104677-7.jpg");
+    width: 204vh;
+}
+
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0,0,0,4);
+    opacity: .8;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: white;
+    border-radius: 2px;
+
+}
+
+.wrapper .center{
+   text-align:center;
+   /*color:rgba(255,165,0);*/
+
+    
+}
